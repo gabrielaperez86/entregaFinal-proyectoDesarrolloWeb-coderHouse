@@ -1,0 +1,33 @@
+Cambios:
+
+Se agregó a todas las paginas html las siguientes keybords:
+erre, 
+contacto,
+diseño, 
+diseño web, 
+diseño grafico,
+marketing digital, 
+social media, 
+community manager, 
+facebook, 
+instagram, 
+illa maria, 
+cordoba, 
+argentina, 
+gestion de contenidos, 
+logos, 
+marcas, 
+branding, 
+identidad corporativa
+
+
+Se agregó a todas las paginas html las siguientes descripción:
+estudio de diseño y comunicación ubicada en la ciudad de Villa María, Pcia. de Córdoba, especialista en diseño gráfico, branding, diseño de Páginas Web y Marketing digital.
+
+Cada pagina html tiene su titulo descriptivo correspondiente
+
+1 INDEX: -Estudio ERRE
+2 NOSOTROS: - Nosotros | Estudio ERRE
+3 SERVICIOS : Servicios  | Estudio ERRE
+4 PORFOLIO : Portfolio | Estudio ERRE
+5 CONTACTO: Contacto | Estudio ERRE

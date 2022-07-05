@@ -1,0 +1,36 @@
+/********ESTILOS HEADER*********/
+.navbar {
+    background-color: #000 !important;
+    img {
+        width: 200px;
+    }
+    .container-fluid {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: space-around;
+    }   
+
+}
+.navbar-nav {
+    align-items: center;
+    li a {
+        color: #fff;
+        font-size: 16px;
+        text-decoration: none;
+        text-transform: capitalize;
+        padding: 15px;
+        &:hover{
+            color: #f9a40e;
+        }
+    }
+    ._active{
+        color: #f9a40e;
+        font-weight: 700;
+    }
+}
+@media (max-width:700px) {
+    .navbar img {
+       width: 100px;
+    }
+}

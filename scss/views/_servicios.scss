@@ -1,0 +1,158 @@
+/* ESTILOS SERVICIOS */
+.servicios {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    h1 {
+        @extend %texto-titulos;
+    }
+}
+
+.contenedor-servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.servicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding-bottom: 70px;
+
+    i {
+        color: #f9a40e;
+        padding-bottom: 10px;
+    }
+
+    h2 {
+        padding-bottom: 10px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+
+    p {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: justify;
+    }
+}
+
+.container-haciendo {
+    background-image: linear-gradient(45deg, #f9a40e 25%, #000000 25%, #000000 50%, #f9a40e 50%, #f9a40e 75%, #000000 75%, #000000 100%);
+    background-size: 42.43px 42.43px;
+    
+}
+
+.haciendo {
+    height: 50vh;
+    padding: 50px;
+    text-align: center;
+    p {
+        font-size: 70px;
+        text-align: left;
+        color: #fff;
+        font-weight: 600;
+
+    }
+}
+
+.porque-elegirnos{
+    height: 30vh;
+    margin: 50px;
+
+    h2{
+        font-size: 40px;
+        font-weight: 800;
+        text-align: center;
+        color: #179d7f;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+    p{
+        color: #fff;
+        font-size: 20px;
+        font-weight: 300;
+        text-align: center;
+    }
+}
+
+.datos-curiosos{
+    
+    h2{
+        font-size: 40px;
+        font-weight: 800;
+        text-align: center;
+        color: #179d7f;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+    p{
+        color: #fff;
+        font-size: 20px;
+        font-weight: 300;
+        text-align: center;
+    }
+}
+.estadisticas {
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        padding: 50px;
+    }
+
+    i {
+        color: #fff;
+        list-style: none;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    h2 {
+        padding-bottom: 30px;
+        color: #f9a40e;
+        text-align: center;
+        font-weight: 800;
+        font-size: 25px;
+    }
+
+    p {
+        color: #fff;
+        font-weight: 300;
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+
+/* media query*/
+@media (max-width:800px) {
+   .haciendo{
+        p{
+            text-align: left;
+            font-size: 50px;
+        }
+   }
+
+    .estadisticas {
+        flex-direction: column;
+    }
+
+}
+@media (max-width:480px){
+    .haciendo{
+        p{
+            font-size: 30px;
+        }
+    }
+}

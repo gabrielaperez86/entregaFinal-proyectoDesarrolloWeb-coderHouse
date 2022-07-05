@@ -1,0 +1,129 @@
+/* ESTILOS NOSOTROS */
+h1 {
+    @extend %texto-titulos;
+}
+.nosotros {
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    margin: 30px;
+    .sobre-nosotros {
+        display: flex;
+        flex-direction: row;
+        .info-nosotros {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            ul{
+                list-style: none;
+            }
+            p {
+                font-size: 18px;
+                color: #fff;
+                text-align: center;
+                padding: 5px;
+                text-align: left;
+                font-weight: 300;
+                .sobre-nostros-span {
+                    background-color: #f9a40e;
+                    color: #000;
+                    font-weight: 400;
+                }
+                .nos-apasiona {
+                    color: #1abc9c;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
+.h2-equipo{
+        text-align: center;
+        text-transform: capitalize;
+        padding: 30px;
+        font-size: 45px;
+        font-weight: 800;
+        color: #fff;
+        .hay-equipo{
+            background-color: #f9a40e;
+            color: #000;
+        }
+}
+
+.nuestro-equipo{
+    img{
+        text-align: center;
+        width: 350px;
+        margin: 50px;
+    }
+    .cargo-equipo{
+        text-align: center;
+        font-weight: 800;
+        font-size: 18px;
+        color: #fff;
+    }
+    .span-cargo{
+        background-color: #f9a40e;
+        color: #000;
+    }
+    .descripcion-cargo{
+        font-size: 14px;
+        font-weight: 300;
+        color: #fff;
+        text-align: justify;
+        margin: 20px;
+    }
+
+}
+.city {
+    display: block;
+    text-align: center;
+    height: 500px;
+    h2 {
+        color: #f9a40e;
+        font-weight: 800;
+        font-size: 50px;
+        padding: 30px;
+    }
+    p {
+        padding: 40px;
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+        text-shadow: 0.1em 0.1em 0.2em black;
+    }
+}
+
+.city-background {
+    background-image: url(../img/villamaria.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    padding-top: 3rem;
+    padding-bottom: 0;
+}
+
+
+/*media query*/
+@media (max-width:700px) {
+    .sobre-nosotros {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedor-nosotros {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .city p {
+        padding: 5px;
+        font-size: 15px;
+        color: #fff;
+    }
+}

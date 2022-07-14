@@ -24,7 +24,7 @@
     padding-bottom: 70px;
 
     i {
-        color: #f9a40e;
+        color: #FFC500;
         padding-bottom: 10px;
     }
 
@@ -33,85 +33,66 @@
         color: #fff;
         font-size: 20px;
         font-weight: 800;
+        text-align: center;
         text-transform: uppercase;
     }
 
     p {
         color: #fff;
         font-size: 16px;
-        font-weight: 300;
-        text-align: justify;
+        font-weight: 400;
+        text-align: center;
     }
 }
 
 .container-haciendo {
-    background-image: linear-gradient(45deg, #f9a40e 25%, #000000 25%, #000000 50%, #f9a40e 50%, #f9a40e 75%, #000000 75%, #000000 100%);
-    background-size: 42.43px 42.43px;
-    
+    /*background-image: linear-gradient(45deg, #FFC500 25%, #000000 25%, #000000 50%, #FFC500 50%,  #FFC500 75%, #000000 75%, #000000 100%);
+    background-size: 42.43px 42.43px;*/
+    background-color: #FFC500;
+
+
+
 }
 
 .haciendo {
-    height: 50vh;
     padding: 50px;
     text-align: center;
+
     p {
-        font-size: 70px;
-        text-align: left;
+        font-size: 2rem;
+        text-align: center;
         color: #fff;
-        font-weight: 600;
+        font-weight: 800;
+
 
     }
 }
 
-.porque-elegirnos{
+.data {
     height: 30vh;
-    margin: 50px;
+    margin: 20px;
 
-    h2{
-        font-size: 40px;
+    h2 {
+        font-size: 2.5rem;
         font-weight: 800;
         text-align: center;
-        color: #179d7f;
+        color: #00DC99;
         padding-top: 20px;
         padding-bottom: 15px;
     }
-    p{
+
+    p {
         color: #fff;
         font-size: 20px;
         font-weight: 300;
         text-align: center;
     }
 }
+.contenedor-estadisticas {
 
-.datos-curiosos{
-    
-    h2{
-        font-size: 40px;
-        font-weight: 800;
         text-align: center;
-        color: #179d7f;
-        padding-top: 20px;
-        padding-bottom: 15px;
-    }
-    p{
-        color: #fff;
-        font-size: 20px;
-        font-weight: 300;
-        text-align: center;
-    }
-}
-.estadisticas {
-    margin: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-    div {
-        padding: 50px;
-    }
-
-    i {
+        padding: 20px;
+         i {
         color: #fff;
         list-style: none;
         padding: 20px;
@@ -120,7 +101,7 @@
 
     h2 {
         padding-bottom: 30px;
-        color: #f9a40e;
+        color: #FFC500;
         text-align: center;
         font-weight: 800;
         font-size: 25px;
@@ -132,27 +113,49 @@
         font-size: 18px;
         text-align: center;
     }
+
+   
 }
 
 
 /* media query*/
-@media (max-width:800px) {
-   .haciendo{
-        p{
-            text-align: left;
-            font-size: 50px;
+@media (max-width:780px) {
+    .haciendo {
+        padding-top: 4rem;
+        p {
+            text-align: center;
+
         }
-   }
+    }
 
     .estadisticas {
         flex-direction: column;
     }
 
 }
-@media (max-width:480px){
-    .haciendo{
-        p{
-            font-size: 30px;
+
+@media (max-width:500px) {
+    h1{
+        font-size: 1.5rem;
+    }
+    .haciendo {
+        height: 30vh;
+        padding: 2px;
+        text-align: center;
+        p {
+            padding-top: 5px;
+            font-size: 20px;
         }
     }
+
+    .data {
+        h2 {
+            font-size: 20px;
+        }
+        p{
+            font-size: 12px;
+            font-weight: 400;
+        }
+    }
+    
 }

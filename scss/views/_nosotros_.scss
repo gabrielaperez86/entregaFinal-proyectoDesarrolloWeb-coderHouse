@@ -1,0 +1,132 @@
+.sobre-nosotros {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    p {
+        font-size: 18px;
+        color: #fff;
+        text-align: justify;
+        padding: 5px;
+        font-weight: 300;
+
+        .sobre-nostros-span {
+            background-color: #FFC500;
+            color: #000;
+            font-weight: 400;
+        }
+
+        .nos-apasiona {
+            color: #1abc9c;
+            font-weight: 700;
+        }
+    }
+}
+
+.presentacion-equipo {
+    h2 {
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 3rem;
+        font-weight: 800;
+
+        .hay-equipo {
+            background-color: #FFC500;
+            color: #fff;
+        }
+    }
+
+    .item-equipo {
+        text-align: center;
+        margin-top: -25px;
+
+        img {
+            width: 250px;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        .item-cargo {
+            padding-top: 1rem;
+            font-size: 1rem;
+            font-weight: 700;
+            color: #fff;
+            text-align: center;
+
+            .span-cargo {
+                background-color: #FFC500;
+                color: #000;
+            }
+        }
+
+        .item-descripcion {
+            padding-bottom: 2rem;
+            font-size: 1rem;
+            font-weight: 300;
+            color: #fff;
+            text-align: center;
+        }
+
+    }
+}
+
+.city {
+    background-image: url('/img/villamaria.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 3rem;
+    padding-bottom: 0;
+    display: block;
+    text-align: center;
+    height: 500px;
+
+    h3 {
+        font-size: 3rem;
+        font-weight: 800;
+        color: #FFC500;
+        text-align: center;
+        text-transform: capitalize;
+
+        .villamarienses {
+            background-color: #FFC500;
+        }
+    }
+
+    .city-why {
+        color: #fff;
+        padding: 40px;
+        font-size: 20px;
+        text-align: center;
+        text-shadow: 0.1em 0.1em 0.2em black;
+    }
+
+}
+@media(max-width:720px) {
+    .city {
+        .city-why {
+            padding: 5px;
+            font-size: 15px;
+            color: #fff;
+        }
+    }
+}
+@media (max-width:320px) {
+    .presentacion-equipo{
+        h2{
+            font-size: 1.5rem;
+        }
+        .item-equipo{
+            margin: 5px;
+            img{
+                width: 150px;
+            }
+        }
+    }
+    .city{
+        h3{
+            font-size: 1.5rem;
+        }
+    }   
+}

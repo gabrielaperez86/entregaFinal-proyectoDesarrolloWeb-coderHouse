@@ -15,4 +15,6 @@ Está desarrollada con las siguientes teconólogias:
 - BootStrap 5
  
  Podés visitarla en este link: [Estudio-ERRE](https://gabrielaperez86.github.io/entregaFinal-proyectoDesarrolloWeb-coderHouse/).
+ 
+ 
  ![alt-text](https://github.com/gabrielaperez86/entregaFinal-proyectoDesarrolloWeb-coderHouse/blob/main/img/mockup-web-erre.jpg)

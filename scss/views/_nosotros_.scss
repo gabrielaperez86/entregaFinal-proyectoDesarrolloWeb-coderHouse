@@ -130,3 +130,21 @@
         }
     }   
 }
+@media(max-width:210px){
+    .presentacion-equipo{
+        .item-equipo{
+            text-align: left;
+            img {
+                width: 100px;
+                text-align: left;
+            }
+    
+        }
+    }
+    .city{
+        .city-why {
+            font-size: 12px;
+        
+    }
+}
+}

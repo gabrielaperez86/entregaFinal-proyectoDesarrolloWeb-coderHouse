@@ -125,6 +125,7 @@
 
     .contenedor-clientes {
         text-align: center;
+
         img {
             width: 100px;
             object-fit: cover;
@@ -136,15 +137,17 @@
         width: 100px;
         object-fit: cover;
     }
-    .frase{
+
+    .frase {
         font-weight: 800;
         font-size: 1rem;
         color: #000;
+
         .span-frase {
             background-color: #00DC99;
         }
     }
-    
+
 }
 
 /*MEDIAS QUERY*/
@@ -209,5 +212,15 @@
     .grid-container {
         padding: 5px;
         grid-auto-flow: dense;
+    }
+}
+
+@media (max-width:280px) {
+    .block-title {
+        .grid-item {
+            img {
+                width: 150px;
+            }
+        }
     }
 }

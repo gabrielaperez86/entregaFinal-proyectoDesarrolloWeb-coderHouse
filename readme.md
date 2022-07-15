@@ -14,7 +14,7 @@ Está desarrollada con las siguientes teconólogias:
 - SCSS
 - BootStrap 5
  
- Podés visitarla en este link: [Estudio-ERRE](https://gabrielaperez86.github.io/entregaFinal-proyectoDesarrolloWeb-coderHouse/).
+ Podés visitarla en este link: [Estudio-ERRE](https://estudioerre.000webhostapp.com).
  
  
  ![alt-text](https://github.com/gabrielaperez86/entregaFinal-proyectoDesarrolloWeb-coderHouse/blob/main/img/mockup-web-erre.jpg)
